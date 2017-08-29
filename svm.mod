@@ -1,9 +1,10 @@
 param num_elem;
 param num_atrib;
 param costo_err;
+param offset;
 set elementos := 1..num_elem; 			 #conjunto de elementos (indices)
 set atributos := 1..num_atrib;			 #conjunto de atributos (indices)
-param DATA{1..num_elem,1..num_atrib+2};
+param DATA{1..num_elem,1..num_atrib+offset};
 param y{i in elementos}; 		#clasificacion para cada elementos
 param x{i in elementos, n in atributos}; 	#vector de n atributos para cada elemento
 
