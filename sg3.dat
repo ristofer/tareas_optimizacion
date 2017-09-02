@@ -1,7 +1,7 @@
 param num_elem:=210;
 param num_atrib:=19;
 param costo_err:=5;
-param offset:=0;
+param offset:=1;
 param DATA :                        
   1 2 3 4 5 6 7 8 9 10  11 12 13 14 15 16 17 18 19 20    :=
 1	BRICKFACE 140.0 125.0 9 0.0 0.0 0.2777779 0.06296301 0.66666675 0.31111118 6.185185 7.3333335 7.6666665 3.5555556 3.4444444 4.4444447 -7.888889 7.7777777 0.5456349 -1.1218182
@@ -216,4 +216,4 @@ param DATA :
 210	GRASS 223.0 185.0 9 0.0 0.0 0.5 0.34960312 2.3888886 2.0807757 12.962963 11.555555 9.777778 17.555555 -4.2222223 -9.555555 13.777778 17.555555 0.44541803 1.8388497 ;
 
 let {i in elementos, n in atributos} x[i,n] := DATA[i,n+1] ;
-let {i in elementos} y[i] := if DATA[i,1]=GRASS then 1 else -1;
+let {i in elementos} y[i] := DATA[i,1];

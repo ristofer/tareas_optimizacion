@@ -1,0 +1,12 @@
+reset; 								# Resetear datos cada corrida
+option solver cplex;				# CPLEX resolvera el problema
+model svm_inf.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data sg5.dat;					# Cargar datos 
+solve;								# Resolver el problema
+print "Archivo de datos: sg5.dat" > "sg_inf02.txt"
+print "z:" >> "sg_inf02.txt";
+print z >> "sg_inf02.txt";						# Muestre variables de interes
+print "W:" >> "sg_inf02.txt" ;
+print {n in atributos} : W[n] >> "sg_inf02.txt";
+print "CHI:" >> "sg_inf.txt" ;
+print {i in elementos} : CHI[i] >> "sg_inf02.txt";
