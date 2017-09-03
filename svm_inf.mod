@@ -10,15 +10,13 @@ param x{i in elementos, n in atributos}; 	#vector de n atributos para cada eleme
 
 #VARIABLES Y RESRICCIONES DE NO NEGATIVIDAD
 var W{n in atributos}; 					#vector del hiperplano
-var W_ABS{n in atributos} >=0; 			#variable auxiliar para linealizar la norma del vector
 var W_INF >=0;							#variable auxiliar para definir la norma infinito
 var B; 									#constante del hiperplano
 var CHI{i in elementos} >=0; 			#variable auxiliar para medir los errores de clasificacion 
 
 #RESTRICCIONES DEL MODELO
 subject to Clasificacion{i in elementos}: y[i]*((sum{n in atributos} (W[n]*x[i, n])) - B) + CHI[i] >= 1; #restriccion principal
-subject to ValorAbsoluto1{n in atributos}: W_ABS[n] >= -W[n]; #restriccion para definir valor absoluto
-subject to ValorAbsoluto2{n in atributos}: W_ABS[n] >= W[n]; #restriccion para definir valor absoluto
-subject to NormaInfinito{n in atributos}: W_INF >= W_ABS[n] ; #restriccion de norma infinito
+subject to NormaInfinito1{n in atributos}: W_INF >= -W[n] ; #restriccion de norma infinito
+subject to NormaInfinito2{n in atributos}: W_INF >= W[n] ; #restriccion de norma infinito
 #FUNCION OBJETIVO
 minimize z : W_INF + costo_err*(sum{i in elementos}(CHI[i])); #funcion objetivo
