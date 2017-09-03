@@ -1,0 +1,18 @@
+reset; 								# Resetear datos cada corrida
+option solver cplex;				# CPLEX resolvera el problema
+model svm.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data bcw3.dat;					# Cargar datos 
+solve;								# Resolver el problema
+print "Archivo de datos: bcw3.dat" > "bcw_01.txt" ;
+print "z:" >> "bcw_01.txt";
+print z >> "bcw_01.txt";						# Muestre variables de interes
+print "W:" >> "bcw_01.txt" ;
+print {n in atributos} : W[n] >> "bcw_01.txt";
+print "CHI:" >> "bcw_01.txt" ;
+print {i in elementos} : CHI[i] >> "bcw_01.txt";
+print "Tiempo de resolucion:" >> "bcw_01.txt" ;
+print _ampl_elapsed_time >> "bcw_01.txt";
+print "Numero de variables:" >> "bcw_01.txt";
+print _nvars >> "bcw_01.txt" ;
+print "Numero de restricciones" >> "bcw_01.txt" ;
+print _ncons >> "bcw_01.txt" ;
