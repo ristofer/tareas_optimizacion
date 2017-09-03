@@ -1,0 +1,20 @@
+reset; 								# Resetear datos cada corrida
+option solver cplex;				# CPLEX resolvera el problema
+model svm.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data bcw_train.dat;					# Cargar datos 
+solve;								# Resolver el problema
+print "Archivo de datos: bcw3.dat" > "bcw_train.txt" ;
+print "z:" >> "bcw_train.txt";
+print z >> "bcw_train.txt";						# Muestre variables de interes
+print "W:" >> "bcw_train.txt" ;
+print {n in atributos} : W[n] >> "bcw_train.txt";
+print "B:" >> "bcw_train.txt" ;
+print B >> "bcw_train.txt" ;
+print "CHI:" >> "bcw_train.txt" ;
+print {i in elementos} : CHI[i] >> "bcw_train.txt";
+print "Tiempo de resolucion:" >> "bcw_train.txt" ;
+print _ampl_elapsed_time >> "bcw_train.txt";
+print "Numero de variables:" >> "bcw_train.txt";
+print _nvars >> "bcw_train.txt" ;
+print "Numero de restricciones" >> "bcw_train.txt" ;
+print _ncons >> "bcw_train.txt" ;

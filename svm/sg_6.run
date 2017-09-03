@@ -7,6 +7,8 @@ print "Archivo de datos: sg9.dat" > "sg_06.txt" ;
 print "z:" >> "sg_06.txt";
 print z >> "sg_06.txt";						# Muestre variables de interes
 print "W:" >> "sg_06.txt" ;
+print "B:" >> "sg_06.txt" ;
+print B >> "sg_06.txt" ;
 print {n in atributos} : W[n] >> "sg_06.txt";
 print "CHI:" >> "sg_06.txt" ;
 print {i in elementos} : CHI[i] >> "sg_06.txt";

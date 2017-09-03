@@ -1,0 +1,9 @@
+reset; 								# Resetear datos cada corrida
+option solver cplex;				# CPLEX resolvera el problema
+model svm.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data sg4.dat;					# Cargar datos 
+solve;								# Resolver el problema
+display z;						# Muestre variables de interes
+display W;
+display W_ABS;
+display CHI;
