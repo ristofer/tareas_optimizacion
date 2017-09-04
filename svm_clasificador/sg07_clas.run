@@ -1,0 +1,9 @@
+reset; 								# Resetear datos cada corrida
+model sg07_clasificador.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+print "Archivo de clasificador: sg07_clasificador.mod" > "clasificacion_07.txt" ;					# Muestre variables de interes
+print "W:" >> "clasificacion_07.txt" ;
+print {n in atributos} : W_CLASS[n] >> "clasificacion_07.txt";
+print "B:" >> "clasificacion_07.txt" ;
+print B_CLASS >> "clasificacion_07.txt" ;
+print "ERROR COUNT:">> "clasificacion_07.txt";
+print ERROR_COUNT >> "clasificacion_07.txt";

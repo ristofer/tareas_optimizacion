@@ -21,6 +21,8 @@ W:
 0
 0
 0
+B:
+5.177049013199229
 CHI:
 0
 0
@@ -233,7 +235,7 @@ CHI:
 0
 0
 Tiempo de resolucion:
-0.015756
+0.05167299999999999
 Numero de variables:
 249
 Numero de restricciones

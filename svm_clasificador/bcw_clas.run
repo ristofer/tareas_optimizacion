@@ -1,0 +1,9 @@
+reset; 								# Resetear datos cada corrida
+model bcw_clasificador.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+print "Archivo de clasificador: bcw_clasificador.mod" > "bcw_clasificacion.txt" ;					# Muestre variables de interes
+print "W:" >> "bcw_clasificacion.txt" ;
+print {n in atributos} : W_CLASS[n] >> "bcw_clasificacion.txt";
+print "B:" >> "bcw_clasificacion.txt" ;
+print B_CLASS >> "bcw_clasificacion.txt" ;
+print "ERROR COUNT:">> "bcw_clasificacion.txt";
+print ERROR_COUNT >> "bcw_clasificacion.txt";
