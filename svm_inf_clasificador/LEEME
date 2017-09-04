@@ -1,0 +1,28 @@
+En este directorio se encuentra el svm.mod con norma infinito, se usa solamente para obtener la funcion lineal desde los datos de entrenamiento
+del cancer.
+Los datos y clasificaciones para los datos de imagenes se encuentran ordenados por numero siguiendo esta convencion
+1 BRICKFACE
+2 SKY
+3 FOLIAGE
+4 CEMENT
+5 WINDOW
+6 PATH
+7 GRASS
+Asi por ejemplo el archivo sg06_test.dat contiene los datos de imagenes considerando 
+PATH con un valor de clasificacion 1 y los demas -1
+
+Por cada clase existen cinco archivos
+sg0X_clasificador.mod el cual clasifica las clases y cuenta los errores
+sg0X_test.dat que contiene los datos
+sg_0X_hiperplano.dat que contiene los parametros del hiperplano 
+sg0X_clas.run el archivo que pone todo en marcha
+clasificacion_0X.txt el archivo que se genera desde el .run y contiene todo los datos buscados
+
+ademas existen analogos para el breast cancer 
+bcw_train.dat contiene los datos seleccionados como entrenamiento
+bcw_test.dat contiene los datos de prueba
+bcw_train.run ejecuta el entrenamiento y genera el archivo bcw_train.txt
+bcw_hiperplano.dat contiene los parametros del hiperplano
+bcw_clasificador.mod clasifica los datos de prueba a partir del hiperplano
+bcw_clas.run ejecuta la clasificacion y genera el archivo bcw_clasificacion.txt
+

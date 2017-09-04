@@ -1,6 +1,6 @@
 Archivo de datos: bcw3.dat
 z:
-2200.103588188695
+2199.0728106472793
 W:
 0.23536287366074587
 -0.0228006610985335
@@ -696,8 +696,8 @@ CHI:
 0
 0
 Tiempo de resolucion:
-0.05130200000000007
+0.053005000000000004
 Numero de variables:
-702
+694
 Numero de restricciones
 701

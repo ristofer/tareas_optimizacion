@@ -1,0 +1,28 @@
+En este directorio se encuentra el svm.mod con norma infinito.
+Los datos de imagenes se encuentran ordenados por numero siguiendo esta convencion
+sg4.dat BRICKFACE
+sg5.dat SKY
+sg6.dat FOLIAGE
+sg7.dat CEMENT
+sg8.dat WINDOW
+sg9.dat PATH
+sg91.dat GRASS
+Asi por ejemplo el archivo sg9.dat contiene los datos de imagenes considerando 
+PATH con un valor de clasificacion 1 y los demas -1
+
+Por cada clase existen tres archivos
+sgx.dat que contiene los datos de las imagenes
+sgx.run que ejecuta la resolucion del modelo con los datos indicados segun este orden
+sg.run BRICKFACE
+sg_2.run SKY
+sg_3.run FOLIAGE
+sg_4.run CEMENT
+sg_5.run WINDOW
+sg_6.run PATH
+sg_7.run GRASS
+ademas genera un archivo sg_0X.txt con todos los datos pedidos para el informe
+
+ademas existen analogos para el breast cancer 
+bcw3.dat contiene los datos 
+bcw.run ejecuta la optimizacion del modelo y genera el archivo bcw_01.txt con todos los datos importantes
+

@@ -235,7 +235,7 @@ CHI:
 0
 0
 Tiempo de resolucion:
-0.03148899999999999
+0.039848999999999996
 Numero de variables:
 231
 Numero de restricciones
