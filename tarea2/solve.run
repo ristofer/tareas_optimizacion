@@ -1,0 +1,35 @@
+reset; 								# Resetear datos cada corrida
+reset data;
+option solver cplex;				# CPLEX resolvera el problema
+option randseed 0;
+model modelo01.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data matrices_de_costo_aleatorias.dat;					# Cargar datos 
+solve;								# Resolver el problema
+display num_adv > modelo01_datos.dat;
+display num_acc_adv >> modelo01_datos.dat;
+display num_acc_lid >> modelo01_datos.dat;
+display R >> modelo01_datos.dat;
+display C >> modelo01_datos.dat;
+display p >> modelo01_datos.dat;
+display M >> modelo01_datos.dat;
+display x >> modelo01_datos.dat;
+display q >> modelo01_datos.dat;
+display d >> modelo01_datos.dat;
+display a >> modelo01_datos.dat;
+display funcion >> modelo01_datos.dat;
+#print "prediccion z" >> modelo01_datos.dat;
+#print {w in adversarios, i in acciones_lid, j in acciones_adv}: x[i]*q[w,j] >> modelo01_datos.dat ;
+reset ;
+model modelo02.mod;
+data matrices_de_costo_aleatorias.dat;
+solve;
+display num_adv >> modelo01_datos.dat;
+display num_acc_adv >> modelo01_datos.dat;
+display num_acc_lid >> modelo01_datos.dat;
+display R >> modelo01_datos.dat;
+display C >> modelo01_datos.dat;
+display p >> modelo01_datos.dat;
+display M >> modelo01_datos.dat;
+display z >> modelo01_datos.dat;
+display q >> modelo01_datos.dat;
+display funcion >> modelo01_datos.dat;

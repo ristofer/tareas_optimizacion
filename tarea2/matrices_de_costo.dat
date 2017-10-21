@@ -1,0 +1,8 @@
+param num_adv:=2;
+param num_acc_adv:=3;
+param num_acc_lid:=5;
+param M:=1000000000000000000000000;
+
+let {w in adversarios, i in acciones_lid, j in acciones_adv} R[w,i,j] := Uniform(-10,10);
+let {w in adversarios, i in acciones_lid, j in acciones_adv} C[w,i,j] := Uniform(-10,10);
+let {w in adversarios} p[w]:= 1/num_adv;
