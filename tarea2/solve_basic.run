@@ -1,0 +1,35 @@
+reset; 								# Resetear datos cada corrida
+reset data;
+option solver cplex;				# CPLEX resolvera el problema
+model modelo01.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data matrices_de_costo.dat;					# Cargar datos 
+solve;								# Resolver el problema
+display num_adv > simple_datos.dat;
+display num_acc_adv >> simple_datos.dat;
+display num_acc_lid >> simple_datos.dat;
+display R >> simple_datos.dat;
+display C >> simple_datos.dat;
+display p >> simple_datos.dat;
+display M >> simple_datos.dat;
+display x >> simple_datos.dat;
+display q >> simple_datos.dat;
+display d >> simple_datos.dat;
+display a >> simple_datos.dat;
+display funcion >> simple_datos.dat;
+#print "prediccion z" >> simple_datos.dat;
+#print {w in adversarios, i in acciones_lid, j in acciones_adv}: x[i]*q[w,j] >> simple_datos.dat ;
+ reset;
+option solver cplex;
+model modelo02.mod;
+data matrices_de_costo.dat;
+solve;
+display num_adv >> simple_datos.dat;
+display num_acc_adv >> simple_datos.dat;
+display num_acc_lid >> simple_datos.dat;
+display R >> simple_datos.dat;
+display C >> simple_datos.dat;
+display p >> simple_datos.dat;
+display M >> simple_datos.dat;
+display z >> simple_datos.dat;
+display q >> simple_datos.dat;
+display funcion >> simple_datos.dat;
