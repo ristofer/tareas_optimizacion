@@ -11,34 +11,48 @@ display num_acc_adv >> modelo01_datos.dat;
 display num_acc_lid >> modelo01_datos.dat;
 display R >> modelo01_datos.dat;
 display C >> modelo01_datos.dat;
-
-reset; 								# Resetear datos cada corrida
-reset data;
-option solver cplex;				# CPLEX resolvera el problema
-option randseed 0;
-option relax_integrality;
-model modelo01.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
-data matrices_de_costo_aleatorias.dat;					# Cargar datos 
-solve;								# Resolver el problema
-print "relax integrality" >> model01_datos.dat;
-display num_adv >> modelo01_datos.dat;
-display num_acc_adv >> modelo01_datos.dat;
-display num_acc_lid >> modelo01_datos.dat;
-display R >> modelo01_datos.dat;
-display C >> modelo01_datos.dat;
+display q >> modelo01_datos.dat;
+display funcion >> modelo01_datos.dat;
 
 reset ;
+reset data;
 model modelo02.mod;
 data matrices_de_costo_aleatorias.dat;
 solve;
-option relax_integrality=1;
+#option relax_integrality 1;
 display num_adv >> modelo01_datos.dat;
 display num_acc_adv >> modelo01_datos.dat;
 display num_acc_lid >> modelo01_datos.dat;
 display R >> modelo01_datos.dat;
 display C >> modelo01_datos.dat;
-display p >> modelo01_datos.dat;
-display M >> modelo01_datos.dat;
-display z >> modelo01_datos.dat;
+display q >> modelo01_datos.dat;
+display funcion >> modelo01_datos.dat;
+
+reset; 								# Resetear datos cada corrida
+reset data;
+option relax_integrality 1;
+model modelo01.mod;					# Cargar modelo (se asume que esta en la misma carpeta)
+data matrices_de_costo_aleatorias.dat;					# Cargar datos 
+solve;								# Resolver el problema
+print "relax integrality" >> modelo01_datos.dat;
+display num_adv >> modelo01_datos.dat;
+display num_acc_adv >> modelo01_datos.dat;
+display num_acc_lid >> modelo01_datos.dat;
+display R >> modelo01_datos.dat;
+display C >> modelo01_datos.dat;
+display q >> modelo01_datos.dat;
+display funcion >> modelo01_datos.dat;
+
+reset ;
+reset data;
+model modelo02.mod;
+data matrices_de_costo_aleatorias.dat;
+solve;
+#option relax_integrality 1;
+display num_adv >> modelo01_datos.dat;
+display num_acc_adv >> modelo01_datos.dat;
+display num_acc_lid >> modelo01_datos.dat;
+display R >> modelo01_datos.dat;
+display C >> modelo01_datos.dat;
 display q >> modelo01_datos.dat;
 display funcion >> modelo01_datos.dat;
