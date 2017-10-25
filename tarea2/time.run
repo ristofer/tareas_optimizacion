@@ -1,0 +1,46 @@
+reset; 					
+reset data;
+option solver cplex;				
+option randseed 0;
+
+model modelo01.mod;				
+data matrices_de_costo_aleatorias.dat;			
+solve;							
+
+display funcion >> modelo01_datos.dat;
+
+print _solve_elapsed_time >> tiempos.txt ;
+
+reset ;
+reset data;
+model modelo02.mod;
+data matrices_de_costo_aleatorias.dat;
+solve;
+
+display num_adv >> modelo01_datos.dat;
+display num_acc_adv >> modelo01_datos.dat;
+display num_acc_lid >> modelo01_datos.dat;
+display funcion >> modelo01_datos.dat;
+
+print _solve_elapsed_time >> tiempos.txt ;
+
+reset; 							
+reset data;
+option relax_integrality 1;
+model modelo01.mod;					
+data matrices_de_costo_aleatorias.dat;				
+solve;								
+print "relax integrality" >> modelo01_datos.dat;
+
+print _solve_elapsed_time >> tiempos.txt ;
+
+reset ;
+reset data;
+model modelo02.mod;
+data matrices_de_costo_aleatorias.dat;
+solve;
+
+display funcion >> modelo01_datos.dat;
+
+print _solve_elapsed_time >> tiempos.txt ;
+print "," >> tiempos.txt;

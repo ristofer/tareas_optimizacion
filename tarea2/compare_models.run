@@ -13,6 +13,7 @@ display R >> modelo01_datos.dat;
 display C >> modelo01_datos.dat;
 display q >> modelo01_datos.dat;
 display funcion >> modelo01_datos.dat;
+display _solve_elapsed_time >> tiempos.txt ;
 
 reset ;
 reset data;
@@ -27,6 +28,7 @@ display R >> modelo01_datos.dat;
 display C >> modelo01_datos.dat;
 display q >> modelo01_datos.dat;
 display funcion >> modelo01_datos.dat;
+display _solve_elapsed_time >> tiempos.txt ;
 
 reset; 								# Resetear datos cada corrida
 reset data;
@@ -42,6 +44,7 @@ display R >> modelo01_datos.dat;
 display C >> modelo01_datos.dat;
 display q >> modelo01_datos.dat;
 display funcion >> modelo01_datos.dat;
+display _solve_elapsed_time >> tiempos.txt ;
 
 reset ;
 reset data;
@@ -56,3 +59,4 @@ display R >> modelo01_datos.dat;
 display C >> modelo01_datos.dat;
 display q >> modelo01_datos.dat;
 display funcion >> modelo01_datos.dat;
+display _solve_elapsed_time >> tiempos.txt ;
