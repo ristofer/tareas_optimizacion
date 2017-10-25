@@ -7,9 +7,12 @@ model modelo01.mod;
 data matrices_de_costo_aleatorias.dat;			
 solve;							
 
-display funcion >> modelo01_datos.dat;
+printf '%f ', funcion >> funciones.txt ;
+printf '%f ', num_adv >> parametros.txt;
+printf '%f ',  num_acc_adv >> parametros.txt;
+printf '%f\n',  num_acc_lid >> parametros.txt;
 
-print _solve_elapsed_time >> tiempos.txt ;
+printf '%f ', _solve_elapsed_time >> tiempos.txt ;
 
 reset ;
 reset data;
@@ -17,12 +20,9 @@ model modelo02.mod;
 data matrices_de_costo_aleatorias.dat;
 solve;
 
-display num_adv >> modelo01_datos.dat;
-display num_acc_adv >> modelo01_datos.dat;
-display num_acc_lid >> modelo01_datos.dat;
-display funcion >> modelo01_datos.dat;
+printf '%f ', funcion >> funciones.txt ;
 
-print _solve_elapsed_time >> tiempos.txt ;
+printf '%f ', _solve_elapsed_time >> tiempos.txt ;
 
 reset; 							
 reset data;
@@ -30,9 +30,9 @@ option relax_integrality 1;
 model modelo01.mod;					
 data matrices_de_costo_aleatorias.dat;				
 solve;								
-print "relax integrality" >> modelo01_datos.dat;
 
-print _solve_elapsed_time >> tiempos.txt ;
+printf '%f ', funcion >> funciones.txt ;
+printf '%f ', _solve_elapsed_time >> tiempos.txt ;
 
 reset ;
 reset data;
@@ -40,7 +40,6 @@ model modelo02.mod;
 data matrices_de_costo_aleatorias.dat;
 solve;
 
-display funcion >> modelo01_datos.dat;
+printf '%f\n', funcion >> funciones.txt ;
 
-print _solve_elapsed_time >> tiempos.txt ;
-print "," >> tiempos.txt;
+printf '%f\n', _solve_elapsed_time >> tiempos.txt ;
