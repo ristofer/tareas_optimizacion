@@ -1438,3 +1438,291 @@ funcion = 4.29461
 relax integrality
 funcion = 6.27978
 
+funcion = 6.38311
+
+num_adv = 4.18729
+
+num_acc_adv = 8.64894
+
+num_acc_lid = 6.35106
+
+funcion = 6.38311
+
+relax integrality
+funcion = 6.67203
+
+funcion = 5.12453
+
+num_adv = 2.7374
+
+num_acc_adv = 2.97238
+
+num_acc_lid = 12.0276
+
+funcion = 5.12453
+
+relax integrality
+funcion = 5.12453
+
+funcion = 8.3682
+
+num_adv = 1.042
+
+num_acc_adv = 8.97519
+
+num_acc_lid = 6.02481
+
+funcion = 8.3682
+
+relax integrality
+funcion = 8.3682
+
+funcion = 5.67334
+
+num_adv = 6.02157
+
+num_acc_adv = 3.96695
+
+num_acc_lid = 11.033
+
+funcion = 5.67334
+
+relax integrality
+funcion = 6.18947
+
+funcion = 4.08986
+
+num_adv = 10.0279
+
+num_acc_adv = 5.7451
+
+num_acc_lid = 9.2549
+
+funcion = 4.08986
+
+relax integrality
+funcion = 6.1026
+
+funcion = 6.9354
+
+num_adv = 3.71581
+
+num_acc_adv = 8.27226
+
+num_acc_lid = 6.72774
+
+funcion = 6.9354
+
+relax integrality
+funcion = 6.9354
+
+funcion = 8.07895
+
+num_adv = 2.38234
+
+num_acc_adv = 5.71198
+
+num_acc_lid = 9.28802
+
+funcion = 8.07895
+
+relax integrality
+funcion = 8.07895
+
+funcion = 4.92599
+
+num_adv = 7.07276
+
+num_acc_adv = 5.57881
+
+num_acc_lid = 9.42119
+
+funcion = 4.92599
+
+relax integrality
+funcion = 6.73542
+
+funcion = 4.57221
+
+num_adv = 8.063
+
+num_acc_adv = 6.17415
+
+num_acc_lid = 8.82585
+
+funcion = 4.57221
+
+relax integrality
+funcion = 5.99273
+
+funcion = 3.5531
+
+num_adv = 3.74773
+
+num_acc_adv = 11.1545
+
+num_acc_lid = 3.84549
+
+funcion = 3.5531
+
+relax integrality
+funcion = 3.99623
+
+funcion = 0
+
+num_adv = 13.869
+
+num_acc_adv = 13.6451
+
+num_acc_lid = 1.35487
+
+funcion = -1.53079
+
+relax integrality
+funcion = -1.53079
+
+funcion = 2.09085
+
+num_adv = 10.0084
+
+num_acc_adv = 1.43704
+
+num_acc_lid = 13.563
+
+funcion = 2.09085
+
+relax integrality
+funcion = 2.09085
+
+funcion = 4.55511
+
+num_adv = 7.20721
+
+num_acc_adv = 4.41342
+
+num_acc_lid = 10.5866
+
+funcion = 4.55511
+
+relax integrality
+funcion = 5.89317
+
+funcion = 1.88691
+
+num_adv = 5.27971
+
+num_acc_adv = 9.88865
+
+num_acc_lid = 5.11135
+
+funcion = 1.88691
+
+relax integrality
+funcion = 4.24277
+
+funcion = 2.65644
+
+num_adv = 11.9879
+
+num_acc_adv = 2.39395
+
+num_acc_lid = 12.6061
+
+funcion = 2.65644
+
+relax integrality
+funcion = 3.89172
+
+funcion = 5.79991
+
+num_adv = 1.66432
+
+num_acc_adv = 3.35903
+
+num_acc_lid = 11.641
+
+funcion = 5.79991
+
+relax integrality
+funcion = 5.79991
+
+funcion = 3.73806
+
+num_adv = 8.83002
+
+num_acc_adv = 11.5391
+
+num_acc_lid = 3.4609
+
+funcion = 3.73806
+
+relax integrality
+funcion = 4.20405
+
+funcion = 5.66052
+
+num_adv = 11.9369
+
+num_acc_adv = 8.36925
+
+num_acc_lid = 6.63075
+
+funcion = 5.66052
+
+relax integrality
+funcion = 6.13774
+
+funcion = 4.96733
+
+num_adv = 6.0708
+
+num_acc_adv = 5.52546
+
+num_acc_lid = 9.47454
+
+funcion = 4.96733
+
+relax integrality
+funcion = 6.02402
+
+funcion = 4.60494
+
+num_adv = 3.38089
+
+num_acc_adv = 8.2335
+
+num_acc_lid = 6.7665
+
+funcion = 4.60494
+
+relax integrality
+funcion = 6.4497
+
+funcion = 3.5543
+
+num_adv = 10.6206
+
+num_acc_adv = 8.59342
+
+num_acc_lid = 6.40658
+
+funcion = 3.5543
+
+relax integrality
+funcion = 5.64823
+
+funcion = 2.74605
+
+num_adv = 9.95239
+
+num_acc_adv = 12.2643
+
+num_acc_lid = 2.73571
+
+funcion = 2.74605
+
+relax integrality
+funcion = 3.42309
+
+funcion = 7.35963
+
