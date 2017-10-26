@@ -1,0 +1,18 @@
+reset; 					
+reset data;
+option solver cplex;				
+option randseed 0;
+
+model modelo01.mod;				
+data matrices_de_costo_aleatorias.dat;			
+solve;							
+
+display solve_message >> bb.txt;
+
+reset ;
+reset data;
+model modelo02.mod;
+data matrices_de_costo_aleatorias.dat;
+solve;
+display solve_message >> bb.txt;
+

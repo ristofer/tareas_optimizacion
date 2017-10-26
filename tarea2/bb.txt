@@ -1,0 +1,319 @@
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.023919618\
+193 MIP simplex iterations\
+25 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.023919618\
+16 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.18641845\
+3461 MIP simplex iterations\
+595 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.18641845\
+727 MIP simplex iterations\
+69 branch-and-bound nodes\
+No basis.'
+
+solve_message = 'presolve finds no feasible solution possible'
+
+solve_message = 'Solution determined by presolve;\
+objective funcion = -0.3909708397.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.753575432\
+382 MIP simplex iterations\
+42 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.753575432\
+7 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.604273725\
+375 MIP simplex iterations\
+47 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.604273725\
+172 MIP simplex iterations\
+8 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 1.700247922\
+145 MIP simplex iterations\
+4 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 1.700247922\
+47 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.724971517\
+24892 MIP simplex iterations\
+2912 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.724971517\
+565 MIP simplex iterations\
+13 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.664114192\
+3692 MIP simplex iterations\
+620 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.664114192\
+658 MIP simplex iterations\
+68 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 1.56678844\
+443 MIP simplex iterations\
+60 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 1.56678844\
+384 MIP simplex iterations\
+32 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 8.407288013\
+1691 MIP simplex iterations\
+238 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 8.407288013\
+1 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution within mipgap or absmipgap; objective 4.522407769\
+95515 MIP simplex iterations\
+13611 branch-and-bound nodes\
+absmipgap = 0.000430672, relmipgap = 9.52308e-05\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.522407769\
+5179 MIP simplex iterations\
+154 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.339632338\
+9 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.339632338\
+1 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.563589499\
+240 MIP simplex iterations\
+22 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.563589499\
+154 MIP simplex iterations\
+10 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.583504104\
+49897 MIP simplex iterations\
+6789 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.583504104\
+7472 MIP simplex iterations\
+352 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.898448232\
+1359 MIP simplex iterations\
+207 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.898448232\
+31 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 1.537678094\
+113 MIP simplex iterations\
+12 branch-and-bound nodes\
+absmipgap = 2.22045e-16, relmipgap = 1.44403e-16\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 1.537678094\
+55 MIP simplex iterations\
+2 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.567032847\
+5337 MIP simplex iterations\
+962 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.567032847\
+1029 MIP simplex iterations\
+70 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 7.445371498\
+91 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 7.445371498\
+0 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.757408944\
+24 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.757408944\
+4 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 6.262013099\
+535 MIP simplex iterations\
+84 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 6.262013099\
+8 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.42702272\
+1522 MIP simplex iterations\
+199 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 3.42702272\
+166 MIP simplex iterations\
+8 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.842568132\
+182176 MIP simplex iterations\
+24232 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.842568132\
+39684 MIP simplex iterations\
+1415 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.107072855\
+8303 MIP simplex iterations\
+1203 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.107072855\
+2415 MIP simplex iterations\
+105 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.47371179\
+585 MIP simplex iterations\
+80 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.47371179\
+25 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.440720458\
+4357 MIP simplex iterations\
+1157 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 5.440720458\
+616 MIP simplex iterations\
+21 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.703670716\
+25 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 2.703670716\
+11 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.058113562\
+354010 MIP simplex iterations\
+47005 branch-and-bound nodes\
+No basis.'
+
+solve_message =
+'CPLEX 12.6.3.0: optimal integer solution; objective 4.058113562\
+4733 MIP simplex iterations\
+101 branch-and-bound nodes\
+No basis.'
+
